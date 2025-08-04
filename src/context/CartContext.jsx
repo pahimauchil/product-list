@@ -1,6 +1,6 @@
 import { useState } from "react";
 import data from "../../data.json";
-import { cartContext } from "./cartContext"; // eslint-disable-line no-unused-vars
+import { cartContext } from "./cartContext";
 
 export const CartProvider = ({ children }) => {
   const [products] = useState(data);

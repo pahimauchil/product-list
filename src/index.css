@@ -115,7 +115,6 @@ body {
   font-size: large;
 }
 
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
   body {
     padding: 3%;
